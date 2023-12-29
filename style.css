@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('bg.png') center/cover no-repeat; /* Replace 'background-image.jpg' with your actual image file */
+    color: #fff; /* Text color for better contrast */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(0, 64, 128, 0.9); /* Transparent blue background */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+section {
+    flex: 1;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.8); /* Transparent black layer */
+}
+
+h1, p {
+    color: #fff;
+}
+
+footer {
+    background-color: rgba(0, 64, 128, 0.9); /* Transparent blue background */
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
